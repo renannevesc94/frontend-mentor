@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+
+    /*COLORS*/
+    --primary-color:#192655;
+    --background: #3876BF;
+    --White: hsl(0, 0%, 100%);
+
+
+    /*Font*/
+    font-family: 'Roboto';
+}
+
+
+html{
+    
+}
+
+h1{
+    color: var(--primary-color);
+    text-align: center;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    width: 30vw;
+    min-width: 350px;
+    height: 70vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+    box-shadow: 1px 1px 6px 2px var(--White);
+    margin-top: 10px;
+}
+
+.links button{
+    width: 26vw;
+    min-width: 300px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--White);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.links button:hover{
+    background-color: var(--White);
+    color: var(--primary-color);
+}
