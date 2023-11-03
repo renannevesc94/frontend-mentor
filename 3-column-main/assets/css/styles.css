@@ -1,0 +1,133 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:hsl(0, 0%, 95%);;
+}
+
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyam: hsl(179, 100%, 13%)
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    font-family:Big Shoulders Display;
+    margin-top: 3px;
+    letter-spacing: 2px;
+}
+
+.container p{
+    font-family:Lexend Deca;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 20px auto 90px auto;
+    font-size: 1rem;
+}
+
+.card1{
+    background-color: var(--Bright-orange);
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    width: 23%;
+    max-width: 350px;
+    height: 73vh;
+    max-height: 470px;
+    padding: 44px;
+    border-radius: 5px 0 0px 5px;
+}
+#btnCard1{
+    width: 70%;
+    height: 40px;
+    color:var(--Bright-orange);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card2{
+    background-color: var(--Dark-cyan);
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    width: 23%;
+    max-width: 350px;
+    height: 73vh;
+    max-height: 470px;
+    padding: 44px;
+}
+
+#btnCard2{
+    width: 70%;
+    height: 40px;
+    color:var(--Dark-cyan);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card3{
+    background-color: var(--Very-dark-cyam);
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    width: 23%;
+    max-width: 350px;
+    height: 73vh;
+    max-height: 470px;
+    padding: 44px;
+    border-radius: 0 5px 5px 0;
+}
+
+#btnCard3{
+    width: 70%;
+    height: 40px;
+    color: var(--Very-dark-cyam);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:450px) {
+   .container{
+    flex-direction: column;
+    margin-top: 10%;
+   }
+
+   .container p{
+    font-family:Lexend Deca;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 7% auto 7% auto;
+    font-size: 1rem;
+}
+
+   .card1{
+    width: 80%;
+    height: 60vh;
+    border-radius: 6px 6px 0 0;
+   }
+
+   .card2{
+    width: 80%;
+    height: 60vh;
+   }
+   
+   .card3{
+    width: 80%;
+    height: 60vh;
+    border-radius: 0px 0px 6px 6px;
+   }
+
+
+}
