@@ -3,10 +3,12 @@
 Esta é minha solução para o [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY).
 ## Índice
 
-- [Visão geral](#visão-geral)
-   - [Captura de tela](#captura-de-tela)
-   * [Tecnologias](#tecnologias)
-   - [Links](#links)
+- [Chat-App-HTML-CSS](#chat-app-html-css)
+  - [Índice](#índice)
+  - [Visão Geral](#visão-geral)
+  - [Captura de Tela](#captura-de-tela)
+  - [Tecnologias](#tecnologias)
+  - [Links](#links)
     
  
 ## Visão Geral
@@ -31,4 +33,4 @@ Este projeto foi desenvolvido utilizando as tecnologias referenciadas a baixo:
 - ``CSS GRID``
 
 ## Links
-[Link para página do projeto](https://renannevesc94.github.io/Chat-App-HTML-CSS/)
+[Link para página do projeto](https://renannevesc94.github.io/frontend-mentor/Chat-App-HTML-CSS-main/)

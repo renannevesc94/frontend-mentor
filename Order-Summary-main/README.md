@@ -4,10 +4,12 @@ Esta é minha solução para o [Order summary card challenge on Frontend Mentor]
 
 ## Índice
 
-- [Visão geral](#visão-geral)
-   - [Captura de tela](#captura-de-tela)
-   * [Tecnologias](#tecnologias)
-   - [links](#links)
+- [Order-Summary](#order-summary)
+  - [Índice](#índice)
+  - [Visão Geral](#visão-geral)
+  - [Captura de Tela](#captura-de-tela)
+  - [Tecnologias](#tecnologias)
+  - [Links](#links)
     
  
 ## Visão Geral
@@ -32,4 +34,4 @@ Este projeto foi desenvolvido utilizando as tecnologias referenciadas a baixo:
 - ``CSS GRID``
 
 ## Links
-[Link para o projeto](https://renannevesc94.github.io/Order-Summary/)
+[Link para o projeto](https://renannevesc94.github.io/frontend-mentor/Order-Summary-main/)
